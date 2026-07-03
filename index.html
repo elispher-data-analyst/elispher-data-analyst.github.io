@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elispher Nyambura Itimu — Data Analyst</title>
+<meta name="description" content="Elispher Nyambura Itimu — entry-level data analyst in Nairobi, Kenya. Python, pandas, Excel, data cleaning and visualization.">
+<style>
+  :root{
+    --navy:#123B5C; --navy-dark:#0D2C46; --teal:#1FA8A0; --teal-light:#E4F5F4;
+    --ink:#22313F; --muted:#5B6B7A; --bg:#F7FAFB; --card:#FFFFFF; --line:#E3EAEF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+  a{color:var(--teal);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:980px;margin:0 auto;padding:0 24px}
+
+  /* hero */
+  header{background:linear-gradient(135deg,var(--navy-dark) 0%,var(--navy) 60%,#175075 100%);color:#fff;padding:72px 0 64px}
+  .hero{display:flex;align-items:center;gap:44px;flex-wrap:wrap}
+  .hero img{width:180px;height:180px;border-radius:50%;object-fit:cover;border:4px solid var(--teal);box-shadow:0 8px 30px rgba(0,0,0,.35)}
+  .hero h1{font-size:2.2rem;line-height:1.2;letter-spacing:.3px}
+  .hero .role{color:var(--teal);font-weight:600;font-size:1.15rem;margin-top:6px}
+  .hero p.tag{margin-top:14px;max-width:560px;color:#D7E3EC}
+  .hero .links{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:10px 20px;border-radius:6px;font-weight:600;font-size:.95rem}
+  .btn-teal{background:var(--teal);color:#fff}
+  .btn-teal:hover{background:#188F88;text-decoration:none}
+  .btn-ghost{border:1.5px solid rgba(255,255,255,.55);color:#fff}
+  .btn-ghost:hover{border-color:var(--teal);color:var(--teal);text-decoration:none}
+
+  section{padding:56px 0}
+  h2{color:var(--navy);font-size:1.5rem;margin-bottom:24px;position:relative;padding-bottom:10px}
+  h2::after{content:"";position:absolute;left:0;bottom:0;width:48px;height:3px;background:var(--teal);border-radius:2px}
+
+  /* project card */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;box-shadow:0 2px 10px rgba(18,59,92,.06)}
+  .card .body{padding:26px 28px}
+  .card h3{color:var(--navy);font-size:1.2rem;margin-bottom:4px}
+  .card .sub{color:var(--muted);font-size:.9rem;margin-bottom:14px}
+  .card ul{margin:12px 0 16px 18px}
+  .card li{margin-bottom:6px}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 18px}
+  .chip{background:var(--teal-light);color:var(--navy);font-size:.8rem;font-weight:600;padding:4px 12px;border-radius:999px}
+  .stat-row{display:flex;gap:18px;flex-wrap:wrap;margin:16px 0}
+  .stat{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px 18px;text-align:center;flex:1;min-width:130px}
+  .stat b{display:block;color:var(--navy);font-size:1.4rem}
+  .stat span{font-size:.8rem;color:var(--muted)}
+
+  /* skills */
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+  .skill{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 22px}
+  .skill h3{color:var(--navy);font-size:1rem;margin-bottom:8px}
+  .skill p{font-size:.92rem;color:var(--muted)}
+
+  /* contact */
+  .contact{background:var(--navy);color:#fff;border-radius:12px;padding:40px 34px;text-align:center}
+  .contact h2{color:#fff}
+  .contact h2::after{left:50%;transform:translateX(-50%)}
+  .contact p{color:#D7E3EC;max-width:520px;margin:0 auto 22px}
+  footer{padding:26px 0 34px;text-align:center;color:var(--muted);font-size:.85rem}
+  @media(max-width:640px){.hero{justify-content:center;text-align:center}.hero .links{justify-content:center}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hero">
+    <img src="photo.jpeg" alt="Portrait of Elispher Nyambura Itimu">
+    <div>
+      <h1>Elispher Nyambura Itimu</h1>
+      <div class="role">Data Analyst · Statistics Graduate · Nairobi, Kenya</div>
+      <p class="tag">BSc Statistics graduate who turns messy, real-world data into clean datasets
+      and clear answers. Currently working in healthcare data verification and digital
+      marketing analytics.</p>
+      <div class="links">
+        <a class="btn btn-teal" href="#projects">View my work</a>
+        <a class="btn btn-ghost" href="mailto:elisphernyambura@gmail.com">Email me</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/elispher-nyambura-a79104225" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/elispher-data-analyst" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-ghost" href="https://www.kaggle.com/elispheritimu" target="_blank" rel="noopener">Kaggle</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Featured project</h2>
+    <div class="card">
+      <div class="body">
+        <h3>NPPES Data-Quality Profiling — US Healthcare Provider Registry</h3>
+        <div class="sub">Python · pandas · Jupyter · NPPES NPI Registry API v2.1</div>
+        <p>In my current role I verify healthcare provider records against the NPPES registry —
+        the national directory of US healthcare providers — so I know first-hand how messy its
+        self-reported data gets. For this project I pulled a 600-record Texas sample from the
+        live API and profiled six classes of data-quality issues that anyone using the registry
+        for provider matching or claims work would inherit.</p>
+        <div class="stat-row">
+          <div class="stat"><b>600</b><span>records profiled</span></div>
+          <div class="stat"><b>96%</b><span>had at least one issue</span></div>
+          <div class="stat"><b>92%</b><span>malformed ZIP codes</span></div>
+          <div class="stat"><b>19%</b><span>specialty mismatches</span></div>
+        </div>
+        <ul>
+          <li>Found duplicate organizations — one clinic registered under four separate NPIs</li>
+          <li>Showed that a third of "Houston" search results don't actually practice in Houston</li>
+          <li>Documented the normalization steps a downstream analyst needs before using the data</li>
+        </ul>
+        <div class="chips">
+          <span class="chip">Data cleaning</span><span class="chip">API extraction</span>
+          <span class="chip">Regex validation</span><span class="chip">Deduplication</span>
+          <span class="chip">Visualization</span>
+        </div>
+        <a class="btn btn-teal" href="https://github.com/elispher-data-analyst/nppes-data-quality" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" style="padding-top:0">
+  <div class="wrap">
+    <h2>What I work with</h2>
+    <div class="grid">
+      <div class="skill"><h3>Python & pandas</h3><p>API extraction, cleaning messy datasets, regex validation, deduplication, and analysis in Jupyter notebooks.</p></div>
+      <div class="skill"><h3>Excel & spreadsheets</h3><p>Clean, organized dashboards, budget models, and trackers — built for people who live in spreadsheets.</p></div>
+      <div class="skill"><h3>Data visualization</h3><p>Charts that make one point clearly — matplotlib for analysis, polished visuals for stakeholders.</p></div>
+      <div class="skill"><h3>Data quality</h3><p>Profiling unfamiliar datasets, documenting issues, and writing the cleaning steps others can reuse.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="contact">
+      <h2>Let's talk</h2>
+      <p>I'm open to entry-level data analyst roles in Nairobi and remote. If you have messy data and questions, I'd love to help answer them.</p>
+      <a class="btn btn-teal" href="mailto:elisphernyambura@gmail.com">elisphernyambura@gmail.com</a>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Elispher Nyambura Itimu · Built with plain HTML &amp; CSS</footer>
+
+</body>
+</html>
